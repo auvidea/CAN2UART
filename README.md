@@ -4,14 +4,11 @@
 
 main
 
-can
-used for transmitting messages over can
+can: used for transmitting messages over can
 
-uart
-same as can but for uart
+uart: same as can but for uart
 
-i2c
-handle i2c messages 
+i2c: handle i2c messages 
 
 Current features
   - canmode 0:

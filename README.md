@@ -1,28 +1,28 @@
-# README
-/*
-   This file is part of Project CAN2UART
-   Version: v.1.0
+**Project CAN2UART** 
 
+**--Version: v.1.0--**
+**--Authors: Daniel Wahl, Florian Dederichs--**
+**--Environment  : Atollic TrueSTUDIO(R)--**
+**--COPYRIGHT(C) : 2017 Auvidea GmbH--**
+   *
    CAN2UART is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
    the Free Software Foundation, either version 3 of the License, or
-   (at your option) any later version.
-
+   (at your option) any later version.*
+   *
    CAN2UART is distributed in the hope that it will be useful,
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
+   GNU General Public License for more details.*
+   *
    You should have received a copy of the GNU General Public License
-   along with AutoQuad.  If not, see <http://www.gnu.org/licenses/>.
-
-   Copyright (C) 2017 Auvidea GmbH
-   
-*/
- 
-Third-party software is not provided by AUVIDEA GmbH and must be aquired seperatly. 
-This includes libraries providied by micro controllers to be used for can or uart.
-In this case STM32F0xx libraries.
+   along with AutoQuad.  If not, see (http://www.gnu.org/licenses/).*
+   *
+   Copyright (C) 2017 Auvidea GmbH*
+   *
+   Third-party software is not provided by AUVIDEA GmbH and must be aquired seperatly. 
+   This includes libraries providied by micro controllers to be used for can or uart.
+   In this case STM32F0xx libraries. (http://www.st.com/content/st_com/en.html)   *
 
 /src/
 

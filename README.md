@@ -22,11 +22,7 @@
    *You should have received a copy of the GNU General Public License*
    *along with AutoQuad.  If not, see (http://www.gnu.org/licenses/).*
    
-   *Copyright (C) 2017 Auvidea GmbH*
-   
-   *Third-party software is not provided by AUVIDEA GmbH and must be aquired seperatly.* 
-   *This includes libraries providied by micro controllers to be used for can or uart.*
-   *In this case STM32F0xx libraries. (http://www.st.com/content/st_com/en.html)*
+   *Copyright (C) 2017 Auvidea GmbH*   
    
   Current features
   - canmode 0:

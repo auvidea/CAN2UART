@@ -1,9 +1,31 @@
 # README
+
+/src/
+
+main
+
+can
+used for transmitting messages over can
+
+uart
+same as can but for uart
+
+i2c
+handle i2c messages 
+
 Current features
-  - Messages can be sent from UART to CAN
-  - Simple Mode: messages are simply sent from UART to CAN
-  - Loopback mode: messages sent to CAN2UART module will be sent back to sender in mirrored letters 
-    e.g. 123 0a bb cc dd bb 0a
-         123 0a bb dd cc bb 0a
-  
+  - canmode 0:
+    Loopback mode 
+    Sends received messages from can back to sender in reverted letters
+    e.g:
+    ID: 123 DLC: 8 DATA: aa bb cc dd ee ff 00 11 99
+    ID: 123 DLC: 8 DATA: 99 11 00 ff ee dd cc bb aa
+    (this is a simplyfied output, yours may differ from what you use as a interpreter)
+    
+ - canmode 1:
+    Normal mode
+    Sends messages from UART to CAN
+    
+ - LED default mode: flashing LED
+
 Planned features

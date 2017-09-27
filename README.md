@@ -1,9 +1,13 @@
 # Project CAN2UART 
 
-**-- Version: v.1.0
-Authors: Daniel Wahl, Florian Dederichs
-Environment  : Atollic TrueSTUDIO(R)
-COPYRIGHT(C) : 2017 Auvidea GmbH --**
+
+**--  Version: v.1.0 --** 
+
+**-- Authors: Daniel Wahl, Florian Dederichs --**
+
+**-- Environment  : Atollic TrueSTUDIO(R) --**
+
+**-- COPYRIGHT(C) : 2017 Auvidea GmbH --**
    *
    CAN2UART is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by

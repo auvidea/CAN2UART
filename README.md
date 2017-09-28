@@ -57,9 +57,9 @@
    ***ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY*** <br />
    ***OF SUCH DAMAGE.*** <br />
    
-  Current features <br />
+  **Current features** <br />
   - canmode 0: <br />
-    Loopback mode <br />
+    Loopback mode (only for test purposes) <br />
     Sends received messages from can back to sender in reverted letters <br />
     e.g: <br />
     ID: 123 DLC: 8 DATA: aa bb cc dd ee ff 00 11 99 <br />
@@ -68,11 +68,9 @@
     
  - canmode 1: <br />
     Normal mode <br />
-    Sends messages from UART to CAN <br />
+    Sends messages from UART to CAN or CAN to CAN<br />
     
- - LED default mode: flashing LED <br />
-
- Planned features <br />
+ - LED default mode: flashing LED <br /> 
 
   /src/ <br />
 

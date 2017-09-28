@@ -27,8 +27,8 @@
    
    ***Copyright � 2015 STMicroelectronics International N.V.. All rights reserved.*** <br />
 
-   *Redistribution and use in source and binary forms, with or without modification, <br />
-   *are permitted, provided that the following conditions are met: <br />
+   *Redistribution and use in source and binary forms, with or without modification,* <br />
+   *are permitted, provided that the following conditions are met:* <br />
 
    *1.	Redistribution of source code must retain the above copyright notice,* <br />
         *this list of conditions and the following disclaimer.* <br />

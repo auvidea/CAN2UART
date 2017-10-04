@@ -21,7 +21,7 @@
 
   ../usart: same as can but for uart <br />
   
-  **How to use:** <br />
+**How to use:** <br />
  <br />
 - Any software to send messages over UART or CAN may be used <br />
 
@@ -30,7 +30,7 @@
   - PUTTY was used to send messages over UART or to set canmode. <br />
   - We used cansend and candump commands from CAN-UTILS for CAN. <br />
 
-*How to set up UART on a Ubuntu Distribution using PUTTY* <br />
+**How to set up UART on a Ubuntu Distribution using PUTTY** <br />
 
 ```
 apt install putty
@@ -70,9 +70,12 @@ sudo putty
   ```
   cansend 291 4 0x4f 0x0b 0xca 0x87
   ```
+  - messages send from UART are received on CAN interface
 - it is also possible to receive messages, you will see only the last messages sent <br />
   ```
   candump
   ```
-  - this command gets can messages from a buffer, so it is possible that the command needs to be used multiple times before the last messages is seen. <br />
+  - this command gets can messages from a buffer, so it is possible that the command needs to be used multiple times before the last message is seen. <br />
+  - it may only receive messages from CAN interface
+  
     

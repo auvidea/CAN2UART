@@ -56,34 +56,3 @@
    ***WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)*** <br />
    ***ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY*** <br />
    ***OF SUCH DAMAGE.*** <br />
-   
-  **Current features** <br />
-  - canmode 0: <br />
-    Loopback mode (only for test purposes) <br />
-    Sends received messages from can back to sender in reverted letters <br />
-    e.g: <br />
-    ID: 123 DLC: 8 DATA: aa bb cc dd ee ff 00 11 99 <br />
-    ID: 123 DLC: 8 DATA: 99 11 00 ff ee dd cc bb aa <br />
-    (this is a simplyfied output, yours may differ from what you use as a interpreter) <br />
-    
- - canmode 1: <br />
-    Normal mode <br />
-    Sends messages from UART to CAN or CAN to CAN<br />
-    
- - LED default mode: flashing LED <br /> 
-
-  /src/ <br />
-
-  ../main: main part of can2uart software <br />
-
-  ../can: used for transmitting messages over can <br />
-
-  ../i2c: handle i2c messages <br />
-
-  ../rcc: handles system messages <br />
-
-  ../usart: same as can but for uart <br />
-
-
-
-

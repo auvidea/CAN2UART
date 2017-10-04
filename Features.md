@@ -41,7 +41,10 @@
 - This mode sets CAN2UART into a loopback mode. So that all messages send from can will <br />
   be mirrored and send back to the sender. <br />
 - E.g. <br />
-
-```ruby cansend can0 123#abcdef001122
-ruby candump can0
-can0 [6] 22 11 00 ef cd ab 
+  ```
+  cansend can0 123#abcdef001122
+  ```
+  ```
+  candump can0
+  can0 [6] 22 11 00 ef cd ab 
+  ```

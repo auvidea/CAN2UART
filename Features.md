@@ -30,13 +30,26 @@
   - PUTTY was used to send messages over UART or to set canmode. <br />
   - We used cansend and candump commands from CAN-UTILS for CAN. <br />
 
+*How to set up UART on a Ubuntu Distribution using PUTTY* <br />
 
--canmode 0- <br />
+```
+apt install putty
+sudo putty
+```
+
+- the configuration window of putty will open
+- make sure that it is set up as follows:
+  - serial line: /dev/<uart port> (e.g. ttyUSB0)
+  - Speed: 115200
+  - connection type: Serial
+- 
+
+*canmode 0* <br />
 
 - was implemented only for test purposes, but may be used as pleased <br />
 - This mode sets CAN2UART into a loopback mode. So that all messages send from can will <br />
   be mirrored and send back to the sender. <br />
-- E.g. <br />
+- e.g. <br />
   ```
   cansend can0 123#abcdef001122
   ```
@@ -45,3 +58,23 @@
   can0 [6] AB CD EF 00 11 22
   can0 [6] 22 11 00 EF CD AB 
   ```
+<br />
+*canmode 1* <br />
+
+- can be used with a sender either connected to CAN or UART interface <br />
+- make sure you enabled canmode 1, by default CAN2UART is set to canmode 0 <br />
+  ```
+  canmode 1
+  ```
+- once set, you can enter messages into putty console <br />
+- a cansend command is created as follows: <br />
+  ```
+  cansend 291 4 0x4f 0x0b 0xca 0x87
+  ```
+- it is also possible to receive messages, you will see only the last messages sent <br />
+  ```
+  candump
+  ```
+  - this command gets can messages from a buffer, so it is possible that the command needs to be used multiple times <br />
+    before the last messages is seen. <br />
+    

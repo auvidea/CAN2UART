@@ -1,11 +1,7 @@
 **Current features** <br />
   - canmode 0: <br />
     Loopback mode (only for test purposes) <br />
-    Sends received messages from can back to sender in reverted letters <br />
-    e.g: <br />
-    ID: 123 DLC: 8 DATA: aa bb cc dd ee ff 00 11 99 <br />
-    ID: 123 DLC: 8 DATA: 99 11 00 ff ee dd cc bb aa <br />
-    (this is a simplyfied output, yours may differ from what you use as a interpreter) <br />
+    Sends received messages from can back to sender in reverted letters <br />   
     
  - canmode 1: <br />
     Normal mode <br />

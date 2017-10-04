@@ -47,8 +47,7 @@ sudo putty
 *canmode 0* <br />
 
 - was implemented only for test purposes, but may be used as pleased <br />
-- This mode sets CAN2UART into a loopback mode. So that all messages send from can will <br />
-  be mirrored and send back to the sender. <br />
+- This mode sets CAN2UART into a loopback mode. So that all messages send from can will be mirrored and send back to the sender. <br />
 - e.g. <br />
   ```
   cansend can0 123#abcdef001122
@@ -75,6 +74,5 @@ sudo putty
   ```
   candump
   ```
-  - this command gets can messages from a buffer, so it is possible that the command needs to be used multiple times <br />
-    before the last messages is seen. <br />
+  - this command gets can messages from a buffer, so it is possible that the command needs to be used multiple times before the last messages is seen. <br />
     

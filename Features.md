@@ -46,5 +46,6 @@
   ```
   ```
   candump can0
-  can0 [6] 22 11 00 ef cd ab 
+  can0 [6] AB CD EF 00 11 22
+  can0 [6] 22 11 00 EF CD AB 
   ```

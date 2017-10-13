@@ -85,7 +85,24 @@ sudo putty
 - control LED
   - flashing LED is enabled by default
   - you can permanently enable the LED with
+  ```
+  LED on
+  ```
+  - or turn it off with
+  ```
+  LED off
+  ```
   - you can also alter default mode with this command:
-
+  ```
+  LED on flash 300 300
+  ```
+  *on flash[LED on delay][LED off delay]*
   
-    
+- other commands
+  -l *Lists all I2C devices*<br />
+
+  -r *Removes specified values from specified register*<br />
+
+  -v *Prints Version* <br />
+
+  -w[register][value] *Writes specified value into specified register*<br />

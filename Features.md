@@ -98,11 +98,11 @@ sudo putty
   ```
   *on flash[LED on delay][LED off delay]*
   
-- other commands
-  -l *Lists all I2C devices*<br />
+- other commands<br />
+  - -l *Lists all I2C devices*<br />
 
-  -r *Removes specified values from specified register*<br />
+  - -r *Removes specified values from specified register*<br />
 
-  -v *Prints Version* <br />
+  - -v *Prints Version* <br />
 
-  -w[register][value] *Writes specified value into specified register*<br />
+  - -w[register][value] *Writes specified value into specified register*<br />

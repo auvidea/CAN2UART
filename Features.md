@@ -70,12 +70,22 @@ sudo putty
   ```
   cansend 291 4 0x4f 0x0b 0xca 0x87
   ```
-  - messages send from UART are received on CAN interface
-- it is also possible to receive messages, you will see only the last messages sent <br />
+  *command id dlc message*
+    - *id* is in integer
+    - *dlc* is also in integer
+    - *message* is in hexadecimal numbers
+  - messages send from UART are received on CAN interface  
+- it is also possible to receive messages, *you will see only the last messages sent* <br />
   ```
   candump
   ```
   - this command gets can messages from a buffer, so it is possible that the command needs to be used multiple times before the last message is seen. <br />
   - it may only receive messages from CAN interface
+  
+- control LED
+  - flashing LED is enabled by default
+  - you can permanently enable the LED with
+  - you can also alter default mode with this command:
+
   
     
